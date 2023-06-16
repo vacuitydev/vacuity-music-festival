@@ -744,6 +744,11 @@ h5{
   margin-bottom: 1rem;
 }
 
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .ml-auto{
   margin-left: auto;
 }
@@ -1426,6 +1431,10 @@ h5{
   --scrollbar-track: rgb(24 24 27 / 0.1) !important;
 }
 
+.scrollbar-track-zinc-50\/20{
+  --scrollbar-track: rgb(250 250 250 / 0.2) !important;
+}
+
 .scrollbar-thumb-rose-800{
   --scrollbar-thumb: #9f1239 !important;
 }
@@ -1589,7 +1598,36 @@ h5{
   --scrollbar-track: rgb(244 244 245 / 0.1) !important;
 }
 
+.dark .dark\:scrollbar-track-zinc-500\/25{
+  --scrollbar-track: rgb(113 113 122 / 0.25) !important;
+}
+
+.dark .dark\:scrollbar-track-zinc-500{
+  --scrollbar-track: #71717a !important;
+}
+
+.dark .dark\:scrollbar-track-zinc-900{
+  --scrollbar-track: #18181b !important;
+}
+
+@media (min-width: 640px){
+  .sm\:mx-2{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .sm\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
+
 @media (min-width: 768px){
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1600,5 +1638,10 @@ h5{
 
   .md\:min-w-\[40\%\]{
     min-width: 40%;
+  }
+
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
