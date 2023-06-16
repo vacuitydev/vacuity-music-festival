@@ -1430,6 +1430,10 @@ h5{
   --scrollbar-thumb: #9f1239 !important;
 }
 
+.scrollbar-thumb-rose-600{
+  --scrollbar-thumb: #e11d48 !important;
+}
+
 .animation-delay-100{
   -webkit-animation-delay: 100ms;
           animation-delay: 100ms;
